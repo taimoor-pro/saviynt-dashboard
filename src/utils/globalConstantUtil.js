@@ -1,0 +1,13 @@
+
+module.exports = Object.freeze({
+    MODAL_BODY_TYPES : {
+        USER_DETAIL : "USER_DETAIL",
+        CUSTOMER_ADD_NEW_OR_UPDATE : "CUSTOMER_ADD_NEW_OR_UPDATE",
+        CONFIRMATION : "CONFIRMATION",
+        DEFAULT : "",
+    },
+
+    CONFIRMATION_MODAL_CLOSE_TYPES : {
+        CUSTOMER_DELETE : "CUSTOMER_DELETE",
+    },
+});
